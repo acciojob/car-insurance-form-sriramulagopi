@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <form method="post">
+	    <form method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" required><br>
         <label for="email">Email:</label>
         <input type="email" id="email" required><br>
-        <label for="gender">Gender:</label>
-        <input type="radio" name="gopi" id="gender" required>Male
-        <input type="radio" id="gender" name="gopi" required>Female<br>
+        <label for="gender_m">Gender:</label>
+        <input type="radio" name="gopi" id="gender_m" required>Male
+		<label for="gender_f"></label>
+        <input type="radio" id="gender_f" name="gopi" required>Female<br>
         <p>Car Brands</p>
         <select>
             <option>select</option>
@@ -29,5 +31,10 @@
         <input type="password" id="password" required><br>
         <input type="submit">
     </form>
+	<!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js">
+</script>
+
 </body>
+
 </html>
